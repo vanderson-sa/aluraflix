@@ -5,16 +5,16 @@ const VideoContext = createContext();
 const VideoProvider = ({ children }) => {
   const [videos, setVideos] = useState({
     frontend: [
-      { category: 'frontend', title: 'O que faz uma desenvolvedora front-end?', thumbnail: 'url-to-thumbnail', alt: 'Thumbnail 1' },
-      // Add more videos here...
+      { category: 'frontend', title: 'O que você precisa saber para começar em DevOps com Leonardo Sartorello', thumbnail: 'https://static.vecteezy.com/system/resources/thumbnails/023/609/409/small/sunburst-background-with-rays-sunray-background-youtube-thumbnail-background-zoom-out-background-free-vector.jpg', alt: 'Thumbnail 1' },
+      
     ],
     backend: [
-      { category: 'backend', title: 'O que estudar para ser backend developer?', thumbnail: 'url-to-thumbnail', alt: 'Thumbnail 2' },
-      // Add more videos here...
+      { category: 'frontend', title: 'O que você precisa saber para começar em DevOps com Leonardo Sartorello', thumbnail: 'https://static.vecteezy.com/system/resources/thumbnails/023/609/409/small/sunburst-background-with-rays-sunray-background-youtube-thumbnail-background-zoom-out-background-free-vector.jpg', alt: 'Thumbnail 2' },
+      
     ],
     mobile: [
-      { category: 'mobile', title: 'Desenvolvimento Android', thumbnail: 'url-to-thumbnail', alt: 'Thumbnail 3' },
-      // Add more videos here...
+      { category: 'frontend', title: 'O que você precisa saber para começar em DevOps com Leonardo Sartorello', thumbnail: 'https://static.vecteezy.com/system/resources/thumbnails/023/609/409/small/sunburst-background-with-rays-sunray-background-youtube-thumbnail-background-zoom-out-background-free-vector.jpg', alt: 'Thumbnail 3' },
+      
     ]
   });
 

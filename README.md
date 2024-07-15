@@ -1,3 +1,4 @@
+## O NODE apresentou um erro de renderização e outras dependências, resolvendo os erros, continuarei a estilização e detalhes finais.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

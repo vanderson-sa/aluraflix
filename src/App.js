@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header';
+import Topo from './components/Topo';
+import SecaoVideo from './components/SecaoVideo';
+import NovoVideo from './components/NovoVideo';
+import Footer from './components/Footer';
+import { VideoProvider } from './components/context/VideoContext.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <VideoProvider>
+      <Router>
+        <div className="App">
+          <Header />
+          <Routes>
+            <Route path="/" element={
+              <>
+                <Topo />
+                <SecaoVideo title="FRONT END" category="frontend" />
+                <SecaoVideo title="BACK END" category="backend" />
+                <SecaoVideo title="MOBILE" category="mobile" />
+              </>
+            } />
+            <Route path="/novo-video" element={<NovoVideo />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </VideoProvider>
   );
 }
 

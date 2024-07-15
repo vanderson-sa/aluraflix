@@ -1,0 +1,11 @@
+.video-section {
+    padding: 20px;
+  }
+  .video-section h2 {
+    text-align: left;
+  }
+  .video-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

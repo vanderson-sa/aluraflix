@@ -1,0 +1,22 @@
+.header {
+    background-color: #131313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .logo {
+    color: #3498db;
+  }
+  .nav-button {
+    background-color: transparent;
+    border: 2px solid #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  .nav-button:hover {
+    background-color: #3498db;
+  }
+  

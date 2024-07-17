@@ -1,0 +1,126 @@
+.category-section {
+  padding: 2rem;
+}
+
+.category-title {
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.frontend {
+  background-color: #6BD1FF;
+}
+
+.backend {
+  background-color: #00C86F;
+}
+
+.mobile {
+  background-color: #FFBA05;
+}
+
+.video-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-card {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.video-iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+.video-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.video-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.video-button svg {
+  margin-right: 5px;
+}
+
+.video-button:hover {
+  text-decoration: underline;
+}
+
+.video-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.video-edit-form input,
+.video-edit-form textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.video-edit-form button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.frontend-card {
+  border: 2px solid #6BD1FF;
+}
+
+.backend-card {
+  border: 2px solid #00C86F;
+}
+
+.mobile-card {
+  border: 2px solid #FFBA05;
+}
+
+.frontend-button {
+  color: #6BD1FF;
+}
+
+.backend-button {
+  color: #00C86F;
+}
+
+.mobile-button {
+  color: #FFBA05;
+}
+

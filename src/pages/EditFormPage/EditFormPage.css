@@ -1,0 +1,63 @@
+.form-pagina {
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  color: #fff;
+}
+
+.form-pagina h2 {
+  margin-bottom: 20px;
+  color: #1DA1F2;
+}
+
+.form-pagina label {
+  display: block;
+  margin-bottom: 10px;
+  color: #FFF;
+}
+
+.form-pagina input,
+.form-pagina select,
+.form-pagina textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 3px solid #2271D1;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #03122F;
+  color: #FFF;
+}
+
+.form-pagina input,
+.form-pagina select {
+  height: 40px;
+}
+
+.form-pagina textarea {
+  height: 80px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  background-color: #03122F;
+  color: white;
+  border: 3px solid #2271D1;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #000000E5;
+  color: #2271D1;
+}
